@@ -12,12 +12,13 @@ If you plan to turn on high-power LEDs, then you need to use the amplifier schem
 
 The switching on of the LEDs can be mapped to the state of the logic button. In this case, you can additionally make the LED invert relative to the button state:
 
-![L3](../images/L3.jpg)
+![L3](../images/L3.png)
 
 In the figure, the right side of the LED tab is responsible for the assignment of single-color LEDs.
 
 - No. - LED number;
 - Input No. - the number of the logical button assigned to the LED;
+- External - if checked, the LED is controlled externally via host software (see [External controlled LEDs](External-LED-control.md));
 - Function - the state of the LED relative to the button state (normal or inverted)
 
 [Start page](../README.md) | [Previous level](LED-connection.md)
